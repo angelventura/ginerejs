@@ -14,4 +14,14 @@ It provides a set of tools and features to help developers create powerful and e
 ## Getting Started
 
 
-##
+## Update dependencies
+
+[https://www.freecodecamp.org/news/how-to-update-npm-dependencies/]
+
+```
+$ npm install -g npm-check-updates
+
+$ ncu
+
+$ ncu --upgrade
+```

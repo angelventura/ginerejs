@@ -1,25 +1,36 @@
 {
-  "name": "ginerejs",
-  "version": "0.0.0",
-  "description": "A core dev utils for a NodeJS projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/username/my-library.git"
-  },
-  "keywords": [
-    "library",
-    "NodeJS",
-    "GinereJS"
-  ],
-  "author": "A. MENDO",
-  "license": "Apache-2.0",
-  "dependencies": {},
-  "bugs": {
-    "url": "https://github.com/username/my-library/issues"
-  },
-  "homepage": "https://github.com/username/my-library#readme"
+    "name": "ginerejs",
+    "version": "0.0.0",
+    "description": "A core dev utils for a NodeJS projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha  test/*.js --exit",
+        "debug-test": "DEBUG=*  mocha  test/*.js --exit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/username/my-library.git"
+    },
+    "keywords": [
+        "library",
+        "NodeJS",
+        "GinereJS"
+    ],
+    "author": "A. MENDO",
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "chai": "^4.3.7",
+        "chai-http": "^4.3.0",
+        "eslint": "^8.32.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "mocha": "^10.2.0"
+    },
+    "bugs": {
+        "url": "https://github.com/angelventura/ginerejs.git/issues"
+    },
+    "homepage": "https://github.com/angelventura/ginerejs.git#readme"
 }
