@@ -1,0 +1,21 @@
+{
+  "name": "GinereJS",
+  "version": "0.0.0",
+  "description": "A core dev utils for a NOodeJS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/my-library.git"
+  },
+  "keywords": [
+    "library",
+    "NodeJS",
+    "GinereJS"
+  ],
+  "author": "A. MENDO",
+  "license": "MIT",
+  "dependencies": {}
+}
