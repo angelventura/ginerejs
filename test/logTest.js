@@ -2,16 +2,26 @@
  * Test the log class
  */
 
+
 const chai = require('chai');
-const Log = require('../src/log');
+const Log = require('../src/util/log');
 
 
 
 describe('Log', () => {
-
-    it('should print badge', function() {
-        Log.printBadge('Test message');
+    let logger;
+    beforeEach(() => {
+        logger = new Log(__filename);
     });
 
-});
+    it('should print badge', function() {
+        logger.printBadge('Test message');
+    });
 
+
+    it('should print badge', function() {
+        logger.printBadge('Test message');
+    });
+
+
+});

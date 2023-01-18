@@ -82,19 +82,5 @@ const SINGLETON = class LogClass {
     }
 };
 
-// const SINGLETON = function (filename) {
-//     if (!filename) {
-//         return Debug('');
-//     }
-//     const ext = path.extname(filename);
-
-//     const relative = path.relative('./', filename);
-
-//     const withoutExt = relative.slice(0, -ext.length);
-
-//     const ret = withoutExt.split(path.sep).join(':');
-
-//     return Debug(ret);
-// };
 
 module.exports = SINGLETON;

@@ -1,9 +1,9 @@
+
+
+
 /**
  * Some function on objects
  */
-
-// const moment = require('moment');
-
 const SINGLETON = {};
 
 SINGLETON.EMPTY_ARRAY = [];
@@ -15,15 +15,6 @@ SINGLETON.join = function(array, separator) {
     return array.join(separator);
 };
 
-// SINGLETON.getDateValue=function(obj,path,format,defaultValue){
-//     const value=SINGLETON.getValue(obj,path,null);
-
-//     if (value === null){
-//         return defaultValue;
-//     } else {
-//         return moment(value).format(format);
-//     }
-// };
 
 SINGLETON.id = function(obj, defaultValue) {
     return SINGLETON.getValue(obj, 'id', defaultValue);
