@@ -1,6 +1,3 @@
-
-
-
 /**
  * Some function on objects
  */

@@ -20,6 +20,8 @@ const SINGLETON = class LogClass {
             const withoutExt = relative.slice(0, -ext.length);
 
             const ret = withoutExt.split(path.sep).join(':');
+
+            // eslint-disable-next-line max-len
             // /Users/mendogomeza/projects/spoonapps/projects/docker-example/src/server.js -> src:server
             this.print = Debug(ret);
         }
